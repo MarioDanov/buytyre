@@ -1,0 +1,147 @@
+/* src/styles/customStyles.css */
+.app-container {
+    margin: auto;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.center-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box, .post-login-window {
+    background: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    min-height: 200px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.gradient-custom-2 {
+    background: #90cdf4;
+    background: -webkit-linear-gradient(to right, #4299e1, #3182ce, #2b6cb0, #2c5282);
+    background: linear-gradient(to right, #4299e1, #3182ce, #2b6cb0, #2c5282);
+}
+
+.no-transform {
+    transition: none !important;
+}
+
+a.text-muted {
+    display: block;
+    margin-top: 10px;
+}
+
+.text-center {
+    margin-bottom: 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    position: absolute;
+    top: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f8f9fa;
+    border-radius: 10px 10px 0 0;
+}
+
+.tab-switch-btn {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.tab-switch-btn.active {
+    background-color: #3182ce;
+    border: none;    
+    outline: none;
+    border-bottom: 2px solid #3182ce;
+    color: white;
+    font-weight: bold;
+}
+
+.tab-switch-btn:not(.active):hover {
+    border: none;    
+    outline: none;
+    background-color: #e2e8f0;
+    border-bottom: 2px solid transparent;
+}
+
+.MDBRow {
+    margin-top: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.fixed-height {
+    min-height: 200px;
+}
+
+.content .w-100 {
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    display: flex; 
+    align-items: center; 
+
+    width: 100%;
+}
+
+.form-group label {
+    margin-right: 0.5rem;
+    font-weight: 500;
+    text-align: left;
+    width: 150px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+.form-group .btn {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.MDBBtn {
+    width: 100%;
+    max-width: 100px; /* Adjust this value as needed */
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+}
